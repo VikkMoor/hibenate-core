@@ -85,7 +85,7 @@ public class Main {
 
         transaction = session.beginTransaction();
 
-        Movie movieToUpdate = session.get(Movie.class, 1L);
+        Movie movieToUpdate = session.find(Movie.class, 1L);
 
         if (movieToUpdate != null) {
             movieToUpdate.setTitle("Интерстеллар: Обновлённое название");
@@ -100,7 +100,7 @@ public class Main {
 
         transaction = session.beginTransaction();
 
-        Movie movieToDelete = session.get(Movie.class, 3L);
+        Movie movieToDelete = session.find(Movie.class, 3L);
 
         if (movieToDelete != null) {
             session.remove(movieToDelete);
