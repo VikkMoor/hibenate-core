@@ -30,7 +30,7 @@
             true
         </property>
 
-        <mapping class="les1.Movie"/>
+        <mapping class="les2.Movie"/>
 
     </session-factory>
 </hibernate-configuration>
