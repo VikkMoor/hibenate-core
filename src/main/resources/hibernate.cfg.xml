@@ -30,7 +30,8 @@
             true
         </property>
 
-        <mapping class="les2.Movie"/>
+        <mapping class="les3.User"/>
+        <mapping class="les3.UserProfile"/>
 
     </session-factory>
 </hibernate-configuration>
