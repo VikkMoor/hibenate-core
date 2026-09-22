@@ -30,8 +30,8 @@
             true
         </property>
 
-        <mapping class="les3.User"/>
-        <mapping class="les3.UserProfile"/>
+        <mapping class="les4.User"/>
+        <mapping class="les4.Post"/>
 
     </session-factory>
 </hibernate-configuration>
